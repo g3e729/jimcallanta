@@ -25,4 +25,7 @@
       $("#sidebar").toggleClass('active');
   });
 </script>
+
+@stack('scripts')
+
 </html>

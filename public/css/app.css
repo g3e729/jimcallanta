@@ -141,7 +141,6 @@ button {
   min-width: 250px;
   max-width: 250px;
   height: 100%;
-  background: #fafbfc;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -151,6 +150,7 @@ button {
   z-index: 9999;
   overflow-y: scroll;
   overflow-x: hidden;
+  background: #fafbfc;
   -webkit-box-shadow: inset -5px -9px 30px #f3f3f3;
           box-shadow: inset -5px -9px 30px #f3f3f3;
 }
@@ -222,9 +222,14 @@ button {
   transition: all .3s ease-in-out;
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
+  display: block;
 }
 
 #sidebar ul li a:hover {
+  color: #444;
+}
+
+#sidebar ul li.active a {
   color: #444;
 }
 
@@ -414,6 +419,28 @@ button {
 
 .work-item button .work-desc:hover .work-desc {
   visibility: visible;
+}
+
+#backTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #212121;
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+  padding: 5px 20px;
+  font-size: 15px;
+}
+
+#backTop:hover {
+  opacity: 1;
+  background-color: #000000;
+  /* Add a dark-grey background on hover */
 }
 
 @media only screen and (max-width: 768px) {

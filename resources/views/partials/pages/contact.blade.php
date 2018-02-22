@@ -1,6 +1,8 @@
 <div id="contact" class="content">
   <h2>Contact Me</h2>
-  <p> Questions? Comments? Suggestions? Don't hesitate to send me a holler. Please fill out this form and I'll get back to you as soon as I can.</p>
+  <p> Questions? Comments? Suggestions? Don't hesitate to send me a holler. <br>
+      Please fill out this form and I'll get back to you as soon as I can.
+  </p>
   <fieldset>
     <!-- Name input-->
     <div class="form-group">

@@ -3,7 +3,7 @@
     MENU
   </div>
   
-  <div class="sidebar-header sidebarCollapse">
+  <div class="sidebar-header light sidebarCollapse">
     <img src="{!! asset('img/me2.jpg') !!}" width="150" height="150">
     <h3><a href="/#welcome">Jim Callanta</a></h3>
     <p> Web App Developer </p>
