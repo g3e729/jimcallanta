@@ -36,7 +36,8 @@
 		@include('partials.pages.welcome')
 		@include('partials.pages.about')
 		@include('partials.pages.work')
-		@include('partials.pages.contact')
+		@include('partials.pages.apply')
+		{{-- @include('partials.pages.contact') --}}
 		<button onclick="backTop()" id="backTop" title="Go to top">Top</button>
   </div>
 @endsection

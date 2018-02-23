@@ -13,17 +13,16 @@
     <p> MENU </p>
     <li><a class="link" href="/#about">ABOUT</a></li>
     <li><a class="link" href="/#works">WORKS</a></li>
-    <li><a class="link" href="/blog">BLOG</a></li>
-    <li><a class="link" href="/#contact">CONTACT ME</a></li>
+    <li><a class="link" href="/#apply">APPLY</a></li>
+    {{-- <li><a class="link" href="/blog">BLOG</a></li> --}}
+    {{-- <li><a class="link" href="/#contact">CONTACT ME</a></li> --}}
   </ul>
 
   <ul class="list-unstyled components">
     <p> PRIMARY CONTACT </p>
-    <li><a class="link" href="mailto:mr.jimcallanta@gmail.com">mr.jimcallanta@gmail.com</a></li>
-    <li><a class="link" href="callto:+631234567890">(+63) 123-456-7890</a></li>
-    <li><a class="link" href="callto:mr.jimcallanta">mr.jimcallanta</a></li>
-    <li><a class="link" href="https://github.com/g3e729" target="_blank">Github</a></li>
+    <li><a class="link" href="mailto:mr.jimcallanta@gmail.com">Email: <br/>mr.jimcallanta@gmail.com</a></li>
+    <li><a class="link" href="callto:mr.jimcallanta">Skype ID: <br/>mr.jimcallanta</a></li>
+    <li><a class="link" href="https://github.com/g3e729" target="_blank">Github Username: <br/>g3e729</a></li>
   </ul>
 
-  <div id="info-text">Partner company <a href="http://codigu.co/">codigu.co</a></div>
 </nav>
