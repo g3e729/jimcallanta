@@ -85,6 +85,7 @@ button {
     background: url('/img/intro.png');
     background-size: 100%;
     background-size: cover;
+    animation: animatedBackground 60s linear infinite;
   }
 
   a {
@@ -118,6 +119,7 @@ button {
   -moz-transition: all .3s ease-in-out;
   cursor: pointer;
   outline: 0;
+  background: transparent;
 }
 
 .intro button:hover {
@@ -183,9 +185,9 @@ button {
 		  -moz-transition: all .5s ease-in-out;
 
 		  &:hover {
-			  transform: scale(1, 0.5);
-			  -webkit-transform: scale(1, 0.5);
-			  -moz-transform: scale(1, 0.5);
+			  // transform: scale(1, 0.5);
+			  // -webkit-transform: scale(1, 0.5);
+			  // -moz-transform: scale(1, 0.5);
 		  }
 		}
 	}
@@ -360,7 +362,7 @@ button {
 }
 
 .work-item {
-  padding: 6% 2% 8% 5%;
+  padding: 0% 2% 8%;
 
   h1 {
     font-size: 50px;
@@ -430,6 +432,37 @@ button {
     opacity: 1;
     background-color: #000000; /* Add a dark-grey background on hover */
   }
+}
+
+.bounce {
+     -webkit-animation: bounce 2s infinite;
+
+     &:hover {
+      -webkit-animation: bounce 0s infinite;
+     }
+}
+
+@-webkit-keyframes bounce {
+  0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  30%{
+    transform: scale(1,0.8) translate(0px, 10px); 
+  }
+
+  75%{
+    transform: scale(1,1.1) translate(0px, -25px); 
+  }
+  
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
+
+@keyframes animatedBackground {
+  from { background-position: -3000 0; }
+  to { background-position: 100% 0; }
 }
 
 @media only screen and (max-width: 768px) {

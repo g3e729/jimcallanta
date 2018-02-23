@@ -4,12 +4,6 @@
 		</p>
 
 		<p>What I think is my best work is <a href="https://storetasker.com/" target="_blank">Storetasker</a>. Storetasker is a system where Shopify Store Administrators can get fast, easy and expert support directly from qualified Shopify developers. My function was a Project Manager and Web Engineer. </p>
-
-		<p>Here are other projects I have worked on:
-		<ul>
-			<li><a href="https://bgbridalgallery.com.ph" target="_blank">https://bgbridalgallery.com.ph/ (Laravel)</a></li>
-			<li><a href="https://rallyhr.com" target="_blank">https://www.rallyhr.com/ (system: https://app.dev2.rallyhr.com/signup/personal-info) (Laravel)</a></li>
-		</ul>
 		</p>
 	</div>  
 </div>

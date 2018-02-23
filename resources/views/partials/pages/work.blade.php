@@ -4,7 +4,7 @@
   <div class="row work-container p-0">
 
     <div class="col-md-7 p-0">
-        <img src="{!! asset('img/bgbridalgallery.png') !!}">
+        <img src="{!! asset('img/works/bgbridalgallery.jpg') !!}">
     </div>
 
     <div class="col-md-4 work-item">
@@ -17,7 +17,7 @@
 
   <div class="row work-container p-0">
     <div class="col-md-7 p-0">
-        <img src="{!! asset('img/storetasker.png') !!}">
+        <img src="{!! asset('img/works/storetasker.jpg') !!}">
     </div>
 
     <div class="col-md-4 work-item">
@@ -30,11 +30,11 @@
 
   <div class="row work-container p-0">
     <div class="col-md-7 p-0">
-        <img src="{!! asset('img/rallyhr.png') !!}">
+        <img src="{!! asset('img/works/rallyhr.jpg') !!}">
     </div>
 
     <div class="col-md-4 work-item">
-      <h1> Rally HR </h1>
+      <h1> RallyHR </h1>
       <p>RallyHR is an all-in-one HR platform that let's you get on with your business. As Human Resources is the cornerstone of every great organisation. RallyHR helps your team by introducing automation, mobility, performance and visibility while simplifying internal processes. The HR Department can now keep up with the demands from employees, supervisors and competition, as they target and address these challenges head on.</p>
 
       <a href="https://www.rallyhr.com/" target="_blank"><button> VISIT WEBSITE </button></a>
@@ -43,14 +43,14 @@
 
   <div class="row work-container p-0">
     <div class="col-md-7 p-0">
-        <img src="{!! asset('img/chonghuahostpial.png') !!}">
+        <img src="{!! asset('img/works/chonghuahospital.jpg') !!}">
     </div>
 
     <div class="col-md-4 work-item">
      <h1> Chong Hua Hospital </h1>
      <p>The Chong Hua Hospital website was created to make searching for doctors and services easily available to patients all over the Philippines and abroad.</p>
 
-     <a href="https://www.rallyhr.com/" target="_blank"><button> VISIT WEBSITE </button></a>
+     <a href="http://www.chonghuahospital.org/" target="_blank"><button> VISIT WEBSITE </button></a>
     </div>
   </div>
 </div>
