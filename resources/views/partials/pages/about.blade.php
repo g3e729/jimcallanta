@@ -6,6 +6,6 @@
 
 		<p>I primarily use PHP / Laravel but picking up a new language or framework isn’t a problem. I am constantly trying to expand my knowledge base.</p>
 
-		<p>To find out more about what I can do for you, check out my <a href="#works">works</a>, or <a href="#contact">contact me</a>.</p>
+		<p>To find out more about what I can do for you, check out my <a href="/#works">works</a>.</p>
 	</div>  
 </div>
