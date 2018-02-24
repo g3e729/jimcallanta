@@ -16,5 +16,5 @@ Route::get('/', function () {
 });
 
 Route::get('/blog', function () {
-    return view('comingsoon');
+    return view('default.comingsoon');
 });

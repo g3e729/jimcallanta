@@ -33,10 +33,10 @@
 
 @section('content')
   <div class="p-0 main-wrapper">
-		@include('partials.pages.welcome')
-		@include('partials.pages.about')
-		@include('partials.pages.work')
-		@include('partials.pages.apply')
+		@include('partials.homepage.welcome')
+		@include('partials.homepage.about')
+		@include('partials.homepage.work')
+		@include('partials.homepage.apply')
 		{{-- @include('partials.pages.contact') --}}
 		<button onclick="backTop()" id="backTop" title="Go to top">Top</button>
   </div>
