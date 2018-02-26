@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', route_title())
+@section('title', $title)
 
 @section('content')
   <div class="main-wrapper">
   	<div class="pages">
-		<h1>{{ route_title() }}</h1>
+		<h1>{{ $title }}</h1>
 		<div class="display-content">
 			<p class="text-danger">coming soon...</p>
 		</div> 
