@@ -13,9 +13,8 @@
     <p> MENU </p>
     <li><a class="link" href="/#about">ABOUT</a></li>
     <li><a class="link" href="/#works">WORKS</a></li>
-    <li><a class="link" href="/#apply">APPLY</a></li>
     {{-- <li><a class="link" href="/blog">BLOG</a></li> --}}
-    {{-- <li><a class="link" href="/#contact">CONTACT ME</a></li> --}}
+    <li><a class="link" href="/#contact">CONTACT ME</a></li>
   </ul>
 
   <ul class="list-unstyled components">

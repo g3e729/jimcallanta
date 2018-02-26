@@ -15,6 +15,8 @@ Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/blog', function () {
-    return view('default.comingsoon');
+Route::get('/blog', 'BlogController@index')->name('page::blog');
+
+Route::get('/letter', function () {
+    return view('letters.apply');
 });

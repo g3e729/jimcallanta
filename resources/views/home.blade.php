@@ -1,22 +1,26 @@
 @extends('layouts.app')
 
-@section('title', 'Jim Callanta')
-
 @push('scripts')
 	<script type="text/javascript">
-		function backTop(id) {
+		function backTop(id, offset) {
 			var element = id || 'body';
 
 			$('html, body').animate({
-			    scrollTop: $(element).offset().top
+			    scrollTop: $(element).offset().top + offset
 			}, 500);
 		}
 
-		$('a[href^="/#"]').on('click', function (event) {
-			var id = $.attr(this, 'href').replace("/", "");
-			event.preventDefault();
+		$('a[href^="/#"], [data-go-to]').on('click', function (event) {
+			var offset = $(this).hasClass('work-item') ? -200 : 0;
 
-			backTop(id);
+			if (this.hasAttribute('data-go-to')) {
+				var id = $(this).data('go-to');
+			} else {
+				var id = $.attr(this, 'href').replace("/", "");
+				event.preventDefault();
+			}
+
+			backTop(id, offset);
 		});
 
 		window.onscroll = function() {scrollFunction()};
@@ -36,8 +40,7 @@
 		@include('partials.homepage.welcome')
 		@include('partials.homepage.about')
 		@include('partials.homepage.work')
-		@include('partials.homepage.apply')
-		{{-- @include('partials.pages.contact') --}}
-		<button onclick="backTop()" id="backTop" title="Go to top">Top</button>
+		@include('partials.homepage.contact')
+		<button onclick="backTop('', 0)" id="backTop" title="Go to top">Top</button>
   </div>
 @endsection

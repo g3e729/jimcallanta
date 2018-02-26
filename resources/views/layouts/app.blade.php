@@ -9,7 +9,7 @@
   <link href="{!! asset('css/app.css') !!}" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   
-  <title>@yield('title')</title>
+  <title>@yield('title', 'Jim Callanta')</title>
 </head>
 <body>
   
