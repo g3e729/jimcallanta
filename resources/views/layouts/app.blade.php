@@ -17,13 +17,21 @@
   
 <div class="wrapper">
 @yield('content')
+<div class="mobile">menu</div>
 </div> <!-- Wrapper -->
 </body>
 
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 <script>
-  $(".menu-trigger").click(function(){
+  $('.mobile').click(function() {
       $("#sidebar").toggleClass('active');
+      var text = 'menu';
+
+      if ($('#sidebar').hasClass('active')) {
+        text = 'hide';
+      }
+
+      $(this).text(text);
   });
 </script>
 
