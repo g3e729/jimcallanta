@@ -53,21 +53,6 @@ button {
   min-height: 100vh;
 }
 
-.menu-trigger {
-  position: absolute;
-  top: 30px;
-  left: 230px;
-  z-index: 99999;
-  display: none;
-  font-size: 15px;
-  cursor: pointer;
-  background: #171f35;
-  color: #ffffff;
-  padding: 10px;
-  width: 135px;
-  border-radius: 50px;
-}
-
 .active {
   left: 0 !important;
 }
@@ -143,8 +128,7 @@ button:hover,
 }
 
 #sidebar {
-  min-width: 250px;
-  max-width: 250px;
+  width: 250px;
   height: 100%;
   color: #ffffff;
   -webkit-transition: all 0.3s;
@@ -443,17 +427,25 @@ button:hover,
 }
 
 @media only screen and (max-width: 768px) {
+  .mobile {
+    position: absolute;
+    left: 10;
+    top: 10;
+    z-index: 9999;
+  }
+
   #sidebar {
-    left: -250px;
+    width: 100%;
+    left: -200%;
+  }
+
+  #sidebar.active {
+    left: 0;
   }
 
   .main-wrapper {
     margin-left: 0;
     width: 100%;
-  }
-
-  .menu-trigger {
-    display: block;
   }
 }
 
